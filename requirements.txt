@@ -1,0 +1,8 @@
+flask
+numpy
+tensorflow>=2.10.0
+Pillow
+requests
+beautifulsoup4
+openai
+h5py

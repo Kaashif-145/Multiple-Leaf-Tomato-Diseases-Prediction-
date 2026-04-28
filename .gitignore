@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+tf310_env/
+
+# Datasets (Large folders)
+train/
+valid/
+test/
+uploads/*
+!uploads/.gitkeep
+
+# Models (Large files)
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
