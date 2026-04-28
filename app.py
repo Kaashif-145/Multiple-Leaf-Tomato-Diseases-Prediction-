@@ -9,7 +9,7 @@ from PIL import Image
 app = Flask(__name__)
 
 # Load NASNetMobile model
-MODEL_PATH = r'D:\WORK\nasnetmobile_plant_model.h5'
+MODEL_PATH = os.path.join(os.path.dirname(__file__), 'nasnetmobile_plant_model.h5')
 model = load_model(MODEL_PATH)
 
 # Class names

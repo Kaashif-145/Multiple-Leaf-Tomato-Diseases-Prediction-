@@ -15,6 +15,7 @@ uploads/*
 
 # Models (Large files)
 *.h5
+!nasnetmobile_plant_model.h5
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
